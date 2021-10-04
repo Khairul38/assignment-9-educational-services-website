@@ -1,0 +1,9 @@
+.nav-btn a {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.nav-btn a:hover {
+    color: #5624d0;
+}
