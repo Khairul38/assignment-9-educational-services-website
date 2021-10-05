@@ -10,7 +10,7 @@ import Services from './component/Services/Services';
 
 function App() {
   return (
-    <div className="">
+    <div>
       <BrowserRouter>
         <Header></Header>
         <Switch>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const Course = (props) => {
+    // Destructuring
     const {img, name, by, price} = props.service;
     return (
         <div>

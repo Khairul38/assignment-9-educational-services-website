@@ -5,7 +5,9 @@ import Course from '../Course/Course';
 import './Home.css';
 
 const Home = () => {
-    const [services] = useServices()
+    // Use Custom Hooks
+    const [services] = useServices();
+    const newServices = services.slice(0, 6);
     return (
         <div className="container">
             <div className="my-5">
@@ -19,7 +21,7 @@ const Home = () => {
                             />
                             <div className=" text-center p-5">
                                 <h3>Always something new to learn</h3>
-                                <p>"Talented people are everywhere, but opportunities can be harder to find. With Udemy, Mohammed — a Syrian refugee — was able to start a new career and a new life in Germany."</p>
+                                <p>"Talented people are everywhere, but opportunities can be harder to find. With Udemy, Mohammed."</p>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -32,7 +34,7 @@ const Home = () => {
                             />
                             <div className=" text-center p-5">
                                 <h3>Our Marketplace</h3>
-                                <p>"Whatever your learning style, we have a course that fits. Coming from instructors all over the world, our courses span over 65 languages and cover just about anything you’d want to know."</p>
+                                <p>"Whatever your learning style, we have a course that fits. Coming from instructors all over the world, our courses span over 65 languages and we cover anything you’d want to know."</p>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -51,15 +53,17 @@ const Home = () => {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <div className="mt-5">
-                <h1>A broad selection of services</h1>
+            <div className="my-5 text-center">
+                <h1 className="text-color">A broad selection of services</h1>
                 <p>Choose from 155,000 online video courses with new additions published every month</p>
             </div>
-            <Row xs={1} md={3} className="g-5 mb-5 p-4">
-                {
-                    services.map(service => <Course key={service.id} service={service}></Course>)
-                }
-            </Row>
+            <div className="container">
+                <Row xs={1} md={3} className="g-5 mb-5 p-4">
+                    {
+                        newServices.map(service => <Course key={service.id} service={service}></Course>)
+                    }
+                </Row>
+            </div>
         </div>
     );
 };

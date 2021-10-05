@@ -1,8 +1,12 @@
+.text-color {
+    color: #A435F0;
+}
+
 .img-overflow {
     overflow: hidden;
 }
 
 .img-hover:hover {
-    transform: scale(1.1);
-    transition: transform 1s;
+    transform: scale(1.08);
+    transition: transform .5s;
 }

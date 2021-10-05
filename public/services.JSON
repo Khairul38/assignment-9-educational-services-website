@@ -54,5 +54,45 @@
         "by": "Brent Eviston",
         "rating": 4.7,
         "price": 13.99
+    },
+    {
+        "id": 8,
+        "img": "https://img-c.udemycdn.com/course/240x135/648826_f0e5_4.jpg",
+        "name": "The Complete Financial Analyst Course 2021",
+        "by": "365 Careers",
+        "rating": 4.7,
+        "price": 15.99
+    },
+    {
+        "id": 9,
+        "img": "https://img-c.udemycdn.com/course/240x135/437398_46c3_10.jpg",
+        "name": "Build Responsive Real-World Websites with HTML and CSS",
+        "by": "Jonas Schmedtmann",
+        "rating": 4.7,
+        "price": 12.99
+    },
+    {
+        "id": 10,
+        "img": "https://img-c.udemycdn.com/course/240x135/756150_c033_2.jpg",
+        "name": "Angular - The Complete Guide (2021 Edition)",
+        "by": "Maximilian Schwarzmüller",
+        "rating": 4.6,
+        "price": 11.99
+    },
+    {
+        "id": 11,
+        "img": "https://img-c.udemycdn.com/course/240x135/857010_8239_2.jpg",
+        "name": "Learn Ethical Hacking From Scratch",
+        "by": "Zaid Sabih, z Security",
+        "rating": 4.7,
+        "price": 17.99
+    },
+    {
+        "id": 12,
+        "img": "https://img-c.udemycdn.com/course/240x135/647428_be28_6.jpg",
+        "name": "Spring & Hibernate for Beginners (Also Spring Boot)",
+        "by": "Chad Darby",
+        "rating": 4.6,
+        "price": 12.99
     }
 ]
